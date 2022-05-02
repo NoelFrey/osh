@@ -1,5 +1,6 @@
 import '../CSS/my_page.css';
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class My_page extends React.Component {
   constructor(props) {
@@ -41,6 +42,17 @@ class My_page extends React.Component {
   }
 }
 
+My_page.propTypes = {
+  name: PropTypes.string,
+  price: PropTypes.string,
+  message: PropTypes.string,
+  image: PropTypes.object
+};
+
+BuyButton.propTypes = {
+  onClick: PropTypes.func
+};
+
 function BuyButton(props) {
   return (
     <button className="button" onClick={props.onClick}>
@@ -48,6 +60,10 @@ function BuyButton(props) {
     </button>
   );
 }
+
+BoughtButton.propTypes = {
+  onClick: PropTypes.func
+};
 
 function BoughtButton(props) {
   return (
