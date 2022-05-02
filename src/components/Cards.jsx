@@ -1,14 +1,14 @@
-import './CSS/Cards.css';
+import '../CSS/Cards.css';
 import React from 'react';
-import My_page from './my_page';
-import first from './images/1.jpg';
-import second from './images/2.png';
-import third from './images/3.jpg';
-import fourth from './images/5.png';
-import fifth from './images/6.jpg';
-import sixth from './images/7.jpg';
-import seventh from './images/8.jpg';
-import eighth from './images/9.jpg';
+import My_page from '../components/my_page';
+import first from '../images/1.jpg';
+import second from '../images/2.png';
+import third from '../images/3.jpg';
+import fourth from '../images/5.png';
+import fifth from '../images/6.jpg';
+import sixth from '../images/7.jpg';
+import seventh from '../images/8.jpg';
+import eighth from '../images/9.jpg';
 
 class Cards extends React.Component {
   render() {

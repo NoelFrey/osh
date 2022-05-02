@@ -1,6 +1,6 @@
-import './CSS/Header.css';
-import './CSS/font-awesome-4.7.0/css/font-awesome.min.css';
-import icon_header from './images/icon-header.png';
+import '../CSS/Header.css';
+import '../CSS/font-awesome-4.7.0/css/font-awesome.min.css';
+import icon_header from '../images/icon-header.png';
 
 let Header = () => {
   return (

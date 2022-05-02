@@ -1,4 +1,4 @@
-import './CSS/my_page.css';
+import '../CSS/my_page.css';
 import React from 'react';
 
 class My_page extends React.Component {
