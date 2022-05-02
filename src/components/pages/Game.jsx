@@ -1,12 +1,11 @@
-import {Component} from "react";
-import My_page from "../my_page";
-import budget1 from "../images/budget1.jpg";
+import { Component } from 'react';
+import My_page from '../my_page';
+import budget1 from '../images/budget1.jpg';
 
 class Game extends Component {
-  render()
-  {
+  render() {
     return (
-      <div className='cards'>
+      <div className="cards">
         <My_page
           image={budget1}
           name="Acer Extensa 15"
@@ -15,8 +14,7 @@ class Game extends Component {
         />
       </div>
     );
-  };
-};
-
+  }
+}
 
 export default Game;

@@ -1,10 +1,9 @@
-import {Component} from "react";
-import budget1 from "../images/budget1.jpg";
-import My_page from "../my_page";
+import { Component } from 'react';
+import budget1 from '../images/budget1.jpg';
+import My_page from '../my_page';
 
 class Sensor extends Component {
-  render()
-  {
+  render() {
     return (
       <My_page
         image={budget1}
@@ -13,7 +12,7 @@ class Sensor extends Component {
         price="180 000KZT"
       />
     );
-  };
-};
+  }
+}
 
 export default Sensor;

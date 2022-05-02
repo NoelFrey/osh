@@ -8,12 +8,12 @@ class NavBar extends Component {
       <BrowserRouter>
         <nav>
           <NavLink to={'/'}>Главная</NavLink>
-          <NavLink to={'./pages/budget'}>Бюджетные</NavLink>
-          <NavLink to={'./pages/middle'}>Среднего класса</NavLink>
-          <NavLink to={'./pages/multi'}>Мультимедийные</NavLink>
-          <NavLink to={'./pages/gamers'}>Игровые</NavLink>
-          <NavLink to={'./pages/style'}>Имиджевые</NavLink>
-          <NavLink to={'./pages/sensor'}>С сенсорным дисплеем</NavLink>
+          <NavLink to={'./pages/Budget'}>Бюджетные</NavLink>
+          <NavLink to={'./pages/Middle'}>Среднего класса</NavLink>
+          <NavLink to={'./pages/Multi'}>Мультимедийные</NavLink>
+          <NavLink to={'./pages/Gamers'}>Игровые</NavLink>
+          <NavLink to={'./pages/Style'}>Имиджевые</NavLink>
+          <NavLink to={'./pages/Sensor'}>С сенсорным дисплеем</NavLink>
         </nav>
       </BrowserRouter>
     );
