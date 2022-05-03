@@ -4,7 +4,7 @@ import budget2 from '../../images/budget2.jpg';
 import budget3 from '../../images/budget3.jpg';
 import budget4 from '../../images/budget4.jpg';
 import budget5 from '../../images/budget5.jpg';
-import My_page from '../../my_page';
+import My_page from '../my_page';
 
 class Budget extends Component {
   render() {

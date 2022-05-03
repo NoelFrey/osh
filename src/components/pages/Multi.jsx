@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import My_page from '../my_page';
-import budget1 from '../images/budget1.jpg';
+import budget1 from '../../images/budget1.jpg';
 
 class Multi extends Component {
   render() {

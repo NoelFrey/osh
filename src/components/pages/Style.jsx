@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import budget1 from '../images/budget1.jpg';
+import budget1 from '../../images/budget1.jpg';
 import My_page from '../my_page';
 
 class Style extends Component {
